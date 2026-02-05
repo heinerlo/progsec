@@ -1,5 +1,5 @@
 # Use a base Node image
-FROM node:latest
+FROM node:25.6.0-bookworm
 
 # Enable bash and install dos2unix
 RUN if [ -f /etc/alpine-release ]; then \
